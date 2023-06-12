@@ -4,9 +4,9 @@ function cubicMeters() {
   const heightCMInput = document.getElementById("cubicMHeight").value;
   const resultOutputElement = document.getElementById("cubic-meter-resut");
   const resultCMParagraph = document.createElement("p");
-  
+
   // const sandWeightPerTonne = 1.5;
-  
+
   const result = () => lenghtCMInput * widthCMInput * heightCMInput;
   resultCMParagraph.innerText = result();
   resultOutputElement.appendChild(resultCMParagraph);
@@ -37,8 +37,6 @@ function squareMeters() {
   resultOutputElement.appendChild(resultParagraph);
 }
 
-
-
 function wageCalculation() {
   const hoursInput = document.getElementById("hours").value;
   const pricePerHour = 350;
@@ -55,7 +53,6 @@ function wageCalculation() {
   // console.log(`${wageTotal} kr`);
 }
 // wage(["350", "80"]);
-
 
 // If needed for equipment calculation!
 // function equipment(input) {
