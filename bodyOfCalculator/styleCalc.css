@@ -1,0 +1,61 @@
+body {
+  max-width: 20%;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  background-color: #464646;
+}
+
+h1 {
+   text-align: center;
+  color: #ffffff;
+}
+
+p {
+  
+  color: #ffffff;
+}
+
+input[type=number] {
+  align-self: center;
+  text-align: center;
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #ffffff;
+}
+
+input[type=button] {
+  position: center;
+  background-color: #353535;
+  color: white;
+  padding: 14px 20px;
+  margin: 20px 60px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=button]:hover {
+  background-color: rgb(105, 4, 4);
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+#square-meter-result {
+  
+    font-size: large;
+    color:#ffffff;
+}
+
+#cubic-meter-resut{
+    font-size: large;
+    color:#ffffff;
+
+}
+
+#hours-worked{
+    font-size: large;
+    color:#ffffff;
+
+}
