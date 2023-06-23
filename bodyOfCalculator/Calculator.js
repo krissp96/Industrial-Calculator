@@ -12,7 +12,10 @@ function cubicMeters() {
   while (resultOutputElement.firstChild) {
     resultOutputElement.removeChild(resultOutputElement.lastChild);
   }
-  resultOutputElement.appendChild(resultCMParagraph);
+  if (lenghtCMInput >= 0 && widthCMInput >= 0 && heightCMInput >= 0) {
+    resultOutputElement.appendChild(resultCMParagraph);
+  }
+  // resultOutputElement.appendChild(resultCMParagraph);
   ///comment the loop if no reset needed
 }
 
@@ -21,16 +24,16 @@ function squareMeters() {
   const widthInput = document.getElementById("sqWidth").value;
   const resultOutputElement = document.getElementById("square-meter-result");
   const resultParagraph = document.createElement("p");
-
   const result = () => lenghtInput * widthInput;
   resultParagraph.innerText = result();
-
-  
 
   while (resultOutputElement.firstChild) {
     resultOutputElement.removeChild(resultOutputElement.lastChild);
   }
-  resultOutputElement.appendChild(resultParagraph);
+  if (lenghtInput >= 0 && widthInput >= 0) {
+    resultOutputElement.appendChild(resultParagraph);
+  } else {
+  }
 }
 
 function wageCalculation() {
