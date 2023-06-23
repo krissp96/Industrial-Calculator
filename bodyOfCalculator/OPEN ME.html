@@ -2,58 +2,75 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <title>Calculator</title>
+    <link rel="stylesheet" href="styleCalc.css">
     <script src="Calculator.js"></script>
+
 </head>
 
 <body>
     <h1>Calculator</h1>
-    <p>Square Meters</p>
+
+
     <div>
+        <h2>Square Meters</h2>
+        <!-- napravih ti zaglaviqta da sa h2, zashtoto imash i drugi P i nastroikite shte sa ednaklvi s celiq tekst -->
+        <!-- <p>Square Meters</p> -->
         <form>
-            <label for="width">Width:</label>
-            <input type="number" id="sqWidth" name="width"><br><br>
-            <label for="lenght">Lenght:</label>
-            <input type="number" id="sqLenght" name="lenght"><br><br>
+            <label for=" width">Width:</label><br>
+            <input type="text" id="sqWidth" name="width" placeholder="Enter the width"><br><br>
+            <label for="lenght">Lenght:</label><br>
+            <input type="text" id="sqLenght" name="lenght" placeholder="Enter the lenght"><br><br>
             <input id="submitSqM" type="button" onclick="squareMeters()" value="Calculate">
             <br>
 
-            <p id="square-meter-result">Square Meters</p>
+            <div class="Result">
+                <p id="square-meter-result">Your result</p>
+            </div>
         </form>
-
-        <br><br>
     </div>
 
 
 
 
     <div>
-        <p>Cubic Meters</p>
+        <h2>Cubic Meters</h2>
+        <!-- <p>Cubic Meters</p> -->
         <form>
-            <label for="heightC">Height:</label>
-            <input type="number" id="cubicMHeight" name="heightC"><br><br>
-            <label for="lenghtC">Lenght:</label>
-            <input type="number" id="cubicMLenght" name="lenghtC"><br><br>
-            <label for="widthC">Width:</label>
-            <input type="number" id="cubicMWidth" name="widthC"><br><br>
+            <label for="heightC">Height:</label><br>
+            <input type="number" id="cubicMHeight" name="heightC" placeholder="Enter the height"><br><br>
+            <label for="lenghtC">Lenght:</label><br>
+            <input type="number" id="cubicMLenght" name="lenghtC" placeholder="Enter the lenght"><br><br>
+            <label for="widthC">Width:</label><br>
+            <input type="number" id="cubicMWidth" name="widthC" placeholder="Enter the width"><br><br>
             <input id="submitCubicMeters" type="button" onclick="cubicMeters()" value="Calculate">
-            <p id="cubic-meter-resut"></p>
+            <br>
+
+            <div class="Result">
+                <p id="cubic-meter-resut">Your result</p>
+            </div>
         </form>
     </div>
-    <br><br>
 
-     <p>Price</p>
+
     <div>
+        <h2>Price</h2>
+        <!-- <p>Price</p> -->
         <form>
-            <label for="hours">Hours</label>
-            <input type="number" id="hours" name="hours"><br><br>
+            <label for="hours">Hours</label><br>
+            <input type="number" id="hours" name="hours" placeholder="Enter your working hours"><br><br>
             <input id="submitHours" type="button" onclick="wageCalculation()" value="Calculate">
             <br>
 
-            <p id="hours-worked"></p>
+            <div class="Result">
+                <p id="hours-worked">Your result</p>
+            </div>
         </form>
     </div>
+
+
 
 
     <!-- <div> -->
@@ -61,12 +78,12 @@
 
 
 
-        <!-- <p>Equipment Cost</p>
+    <!-- <p>Equipment Cost</p>
         <label for="lname">Days:</label>
         <input type="number" id="days" name="lname"><br><br>
         <input id="submitEquipmentCost" type="submit" value="Calculate">
         <output>Result</output> -->
-        <!-- </div>
+    <!-- </div>
     <div><p>Square Meters</p>
     <div>
         <form>
