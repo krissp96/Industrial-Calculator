@@ -3,7 +3,7 @@ function cubicMeters() {
   const widthCMInput = document.getElementById("cubicMWidth").value;
   const heightCMInput = document.getElementById("cubicMHeight").value;
   const resultOutputElement = document.getElementById("cubic-meter-resut");
-  const resultCMParagraph = document.createElement("p");
+  // const resultCMParagraph = document.createElement("p");
   const errorLog = "Positive numbers only";
 
   const result = () =>
