@@ -1,38 +1,11 @@
 body {
   /* max-width: 10%; */
-  margin: auto;
+  margin: 0 auto;
+  width: 80%;
   font-family: Arial, sans-serif;
   background-color: #464646;
 }
 
-
-div {
-
-  /* ivka slaga neshta tuk */
-
-  background-color: #320000;
-  /* Div-a ti trqbva da e po maluk ot 100 procenta i da e centriran s margin */
-  max-width: 23%;
-margin: auto;
-
-  text-align: left;
-  /* text-align: left; */
-  font-size: 20px;
-
-
-  /* smenih fonta i cveta navsqkude */
-  font-family: Arial, Helvetica, sans-serif;
-  color: #DFDFDF;
-
-  /* Dadoh razstoqnie, za da ne trqbva teksta i vsichko da e zalepeno za stenite na divovete */
-  padding: 2%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-
-  /* stilizirah divovete da izglejdat fancy */
-  border-radius: 5px;
-  box-shadow: 2px 2px 4px #1b1b1b;
-}
 
 h1 {
   text-align: center;
@@ -45,10 +18,18 @@ h2 {
   font-size: 20px;
 }
 
+/* adding h4 */
+
+h4{
+  color: #DFDFDF;
+  text-align: center;
+  font-size: 12px;
+}
+
 p {
   color: #DFDFDF;
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 input[type=text] {
@@ -103,10 +84,11 @@ input[type=button]:hover {
 
 .Result {
   background-color: #230000;
-  max-width: 100%;
+  /* max-width: 100%; */
   color: #234926;
   border-radius: 10px;
   box-shadow: none;
+  font-size: large;
 }
 
 label {
@@ -127,4 +109,81 @@ label {
 #hours-worked{
     font-size: large;
     color:#DFDFDF;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+min-width: 20%;
+
+   /* ivka slaga neshta tuk */
+
+  background-color: #320000;
+  /* Div-a ti trqbva da e po maluk ot 100 procenta i da e centriran s margin */
+  /* max-width: 80%; */
+margin: auto;
+
+  text-align: left;
+  /* text-align: left; */
+  font-size: 20px;
+
+
+  /* smenih fonta i cveta navsqkude */
+  font-family: Arial, Helvetica, sans-serif;
+  color: #DFDFDF;
+
+  /* Dadoh razstoqnie, za da ne trqbva teksta i vsichko da e zalepeno za stenite na divovete */
+  padding: 2%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  /* stilizirah divovete da izglejdat fancy */
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px #1b1b1b;
+
+  /* justify-content: center; */
+}
+.wrapper{
+  
+}
+.boxWrapper{
+  display: flex;
+  flex-direction: row;
+}
+.buttonWrapper{
+  display: flex;
+  justify-content: center;
+}
+.formClass{
+  display:flex;
+  flex-direction: column;
+}
+.tonsCalculation{
+   display: flex;
+  flex-direction: column;
+max-width: 20%;
+
+   /* ivka slaga neshta tuk */
+
+  background-color: #320000;
+  /* Div-a ti trqbva da e po maluk ot 100 procenta i da e centriran s margin */
+  /* max-width: 80%; */
+margin: auto;
+
+  text-align: left;
+  /* text-align: left; */
+  font-size: 20px;
+
+
+  /* smenih fonta i cveta navsqkude */
+  font-family: Arial, Helvetica, sans-serif;
+  color: #DFDFDF;
+
+  /* Dadoh razstoqnie, za da ne trqbva teksta i vsichko da e zalepeno za stenite na divovete */
+  padding: 2%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  /* stilizirah divovete da izglejdat fancy */
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px #1b1b1b;
 }
